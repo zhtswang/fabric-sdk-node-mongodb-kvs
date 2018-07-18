@@ -1,0 +1,39 @@
+{
+  "name": "fabric-sdk-node-mongodb-kvs",
+  "version": "0.1.0",
+  "description": "MongoDB KeyValueStore implementation for Fabric Node.js SDK",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:kenspirit/fabric-sdk-node-mongodb-kvs.git"
+  },
+  "keywords": [
+    "fabric-ca",
+    "fabric-sdk-node",
+    "mongodb",
+    "kvs"
+  ],
+  "author": "Ken Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenspirit/fabric-sdk-node-mongodb-kvs/issues"
+  },
+  "homepage": "https://github.com/kenspirit/fabric-sdk-node-mongodb-kvs",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "mongodb": "^3.1.1"
+  }
+}
